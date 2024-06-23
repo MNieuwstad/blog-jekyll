@@ -1,4 +1,4 @@
-# **Privacy Policy**
+# **Privacy Policy Mijn Zelf Beachen**
 
 Last updated: June 21, 2024
 
