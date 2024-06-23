@@ -1,4 +1,9 @@
-# **Privacy Policy Mijn Zelf Beachen**
+---
+layout: page
+title: Privacy Policy Mijn Zelf Beachen
+---
+
+# **Privacy Policy**
 
 Last updated: June 21, 2024
 
