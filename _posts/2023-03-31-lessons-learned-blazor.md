@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Lessons learned na 6 blazor
+title: Lessons learned na 6 maanden blazor
 subtitle:
 tags: [testen]
 comments: false
@@ -18,7 +18,8 @@ Dit kan inderdaad door die code challenges, presentaties of retrospectives. Een 
 
 # Lessons learned
 
-**1. Hoe ik acht uur per dag achter schermen kan zitten**Zelf heb ik wat sneller dan de gemiddelde mens last van hoofdpijn. De hele dag achter een scherm zitten/staan is dan geen pretje. Deze tips kunnen helpen tegen hoofdpijn, vierkante ogen, vermoeidheid en ga zo maar door. Ik begin met deze tips omdat ik vind dat ontwikkelaars soms te weinig aan hun gezondheid denken. Sceptisch? Begrijp ik, maar als een van deze tips een klein beetje helpt, ben ik al tevreden met deze blog. Want dat kleine beetje *keer* 47 weken *keer* 5 dagen *keer* 8 uur is ineens een hele hoop.
+## **1. Hoe ik acht uur per dag achter schermen kan zitten**
+Zelf heb ik wat sneller dan de gemiddelde mens last van hoofdpijn. De hele dag achter een scherm zitten/staan is dan geen pretje. Deze tips kunnen helpen tegen hoofdpijn, vierkante ogen, vermoeidheid en ga zo maar door. Ik begin met deze tips omdat ik vind dat ontwikkelaars soms te weinig aan hun gezondheid denken. Sceptisch? Begrijp ik, maar als een van deze tips een klein beetje helpt, ben ik al tevreden met deze blog. Want dat kleine beetje *keer* 47 weken *keer* 5 dagen *keer* 8 uur is ineens een hele hoop.
 
 **De eerste tip:** Zet je “night light” aan. Een wattes? Dit is een blauwe licht filter ingebouwd in windows. [Zo](https://support.microsoft.com/en-us/windows/set-your-display-for-night-time-in-windows-18fe903a-e0a1-8326-4c68-fd23d7aaf136https://support.microsoft.com/en-us/windows/set-your-display-for-night-time-in-windows-18fe903a-e0a1-8326-4c68-fd23d7aaf136) zet je hem aan. Hierdoor hoef je niet je helderheid aan te passen, maar worden je ogen wel minder moe. In het begin is de oranje gloed even wennen, maar ik garandeer je dat je na een paar uurtjes allang bent vergeten dat je de filter aan hebt. Pas als je op werk je laptop aan zet zal je worden herinnerd met de vraag: “Wat is er met jouw scherm gebeurd?”.
 
@@ -28,7 +29,9 @@ Dit kan inderdaad door die code challenges, presentaties of retrospectives. Een 
 
 **De derde tip:** Kijk soms even uit het raam of weg van je scherm. Want als je midden in een probleem zit is het moeilijk om weg te lopen. Dan is even wegkijken een goede tweede optie. De vuistregel is vaak 20 minuten werken en dan 20 seconden naar buiten kijken. Voor meer info Google dit: “[20-20-20 rule](https://www.google.com/search?q=20-20-20)”. Er zijn ook genoeg apps om je hiermee te helpen. Zelf gebruik ik een fysieke timer om dit bij te houden. Even een blokje om lopen moet je natuurlijk ook niet vergeten. Zorg dan wel dat je niet alleen naar je voeten, maar verder kijkt! Helpt ook met tegemoetkomend verkeer trouwens.
 
-**2. Blazor pages en components managen**Als je een Blazor project start krijg je de folders Pages en Components te zien. Op het eerste gezicht niets mis mee en je begint aan je project te werken. Maar naar mate er steeds meer domeinen bij komen begint het te lijken op:
+## **2. Blazor pages en components managen**
+
+Als je een Blazor project start krijg je de folders Pages en Components te zien. Op het eerste gezicht niets mis mee en je begint aan je project te werken. Maar naar mate er steeds meer domeinen bij komen begint het te lijken op:
 
 ![image1]({{ '/assets/img/lessonslearned/image1.png' | relative_url }})
 
@@ -41,11 +44,13 @@ Stuk overzichtelijker vind je niet? Persoonlijk vind ik dit mooier en gemakkelij
 
 We hebben veel verschillende kleine domeinen met weinig pagina’s en componenten. Als ik het project opnieuw zou doen zou ik het zoals hierboven indelen. Maar om heel eerlijk te zijn gebruiken wij dit niet. Dit komt omdat de `ctrl + p` zoekfunctie prima werkt en we eigenlijk nooit rond klikken. Het voordeel van de refactor zal niet groter zal zijn dan de tijd besteed aan het zoeken van de documenten. Mijn doel is vooral om je na te laten denken over hoe je de (Blazor) componenten en pagina’s zal indelen. Hopelijk is dat gelukt!
 
-**3. Je code moet een goed boek zijn**In het begin probeerde ik mijn code zo leesbaar mogelijk te houden. Op een puntje na. Aan mijn test code besteedde ik namelijk iets minder tijd dan aan de rest van mijn feature. Het verbeteren hiervan was misschien 5 minuten extra werk per test. In de merge was het vaak te begrijpen met de context van het ticket. Maar na een paar sprints, was dit niet zo en moest ik even op mijn hoofd krabben wat er nou precies werd getest. Laat staan wat anderen hierover dachten.
+## **3. Je code moet een goed boek zijn**
+In het begin probeerde ik mijn code zo leesbaar mogelijk te houden. Op een puntje na. Aan mijn test code besteedde ik namelijk iets minder tijd dan aan de rest van mijn feature. Het verbeteren hiervan was misschien 5 minuten extra werk per test. In de merge was het vaak te begrijpen met de context van het ticket. Maar na een paar sprints, was dit niet zo en moest ik even op mijn hoofd krabben wat er nou precies werd getest. Laat staan wat anderen hierover dachten.
 
 Dit gebeurde te vaak en ik was te vaak een test aan het refactoren die al was geschreven. De oplossing? Ten eerste moet ik even veel energie stoppen in mijn test code. Want de tests worden misschien wel vaker gelezen/herschreven dan de code in onze aggregrates en controllers. Ten tweede, als ik een vraag krijg in mijn merge waaruit blijkt dat de code niet duidelijk genoeg is moet ik in plaats van die vraag beantwoorden de code opnieuw schrijven. Als ik dit niet doe dan wordt het later veel typen op Slack… Wat is de tip Max? Nou, zorg dat je code leest als een boek. Dan zit je meestal goed.
 
-**4. Van boven naar beneden**Dit was een van de dingen die ik op school had moeten leren. De theorie wist ik. Helaas werd op school weinig naar de code gekeken. Dus kon ik de connectie met de theorie en code nog niet maken. Gelukkig heb ik nu teamgenoten bij Infi die mij hierin kunnen helpen. Mijn probleem waar ik de fout in ging: Ik wilde een pagina refactoren naar verschillende components.
+## **4. Van boven naar beneden**
+Dit was een van de dingen die ik op school had moeten leren. De theorie wist ik. Helaas werd op school weinig naar de code gekeken. Dus kon ik de connectie met de theorie en code nog niet maken. Gelukkig heb ik nu teamgenoten bij Infi die mij hierin kunnen helpen. Mijn probleem waar ik de fout in ging: Ik wilde een pagina refactoren naar verschillende components.
 
 *Components:*
 

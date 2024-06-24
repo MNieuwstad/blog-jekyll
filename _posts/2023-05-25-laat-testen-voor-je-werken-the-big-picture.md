@@ -6,6 +6,9 @@ tags: [testen]
 comments: false
 mathjax: false
 author: Max Nieuwstad
+cover-img: /assets/img/20230525/5640.webp
+thumbnail-img: /assets/img/20230525/5640.webp
+share-img: /assets/img/20230525/5640.webp
 ---
 
 ### Deze blog biedt een aantal handige tips en handvatten over hoe je tests (beter) kunt laten werken in jouw project of team. Dus voor ontwikkelaars die betere tests willen schrijven, maar ook voor teams die nog effectiever willen samenwerken bij het schrijven van tests. Je hoeft deze blog niet op de letter te volgen, maar ik bied graag wat inspiratie!
@@ -107,7 +110,7 @@ Sommige punten zijn zwart-wit, zoals “weerstand tegen refactoring”. Want een
 
 Er zijn nog meer voorbeelden die ik later wil bespreken in een aparte blog, anders wordt deze blog te lang. Wanneer je niet kunt wachten om meer te weten te komen over deze pilaren, lees dan hoofdstuk 4 van het boek. De afbeelding hieronder laat zien hoe “bescherming tegen bugs” en “snelle feedback” per type test anders kan zijn.
 
-![Test pilaren en type testen]({{ '/assets/img/image-5.png' | relative_url }})
+![Test pilaren en type testen]({{ '/assets/img/20230525/image-5.png' | relative_url }})
 
 **Vergeet niet wat belangrijk is**Er bestaat veel literatuur over test frameworks, mocking libraries en andere technische tools. Maar antwoord op de vraag “wat is een goede test?” wordt maar weinig gegeven. Raak niet verdwaald in de technische tools en vergeet niet om jezelf af te vragen wat een goede test is. Want als je tests telkens om vallen, zijn frameworks en mocking libraries in eens een stuk minder nuttig.
 
