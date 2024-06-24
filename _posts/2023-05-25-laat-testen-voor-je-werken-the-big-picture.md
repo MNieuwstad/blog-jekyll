@@ -14,7 +14,7 @@ author: Max Nieuwstad
 
 # De goede test is waardevol
 
-Wat is nou een goede test? Bij het schrijven komen verschillende vragen naar boven. Bijvoorbeeld over het wel of niet mocken, wanneer of wat te testen en naming. Tijdens mijn zoektocht naar het schrijven van betere tests ben ik begonnen met het lezen van het boek “Unit Testing Principles, Practices, and Patterns” om antwoorden te vinden op de vragen die ik had. In het boek leert je hoe je een effectieve test schrijft. Want wanneer je een “goede” test hebt die niet een waardevol stuk code test, voegt de test geen waarde toe. Denk aan het testen van een stukje buisness logica versus het testen van een getter/setter. Het boek doet dit met pilaren voor het schrijven van een goede test. Lees hoofdstuk 1 van het boek [hier](https://livebook.manning.com/book/unit-testing/chapter-1) gratis. Deze blog is geïnspireerd door het boek en is een vervolg van mijn presentatie op de “INFI-CON 2022”.
+Wat is nou een goede test? Bij het schrijven komen verschillende vragen naar boven. Bijvoorbeeld over het wel of niet mocken, wanneer of wat te testen en naming. Tijdens mijn zoektocht naar het schrijven van betere tests ben ik begonnen met het lezen van het boek “Unit Testing Principles, Practices, and Patterns” om antwoorden te vinden op de vragen die ik had. In het boek leert je hoe je een effectieve test schrijft. Want wanneer je een “goede” test hebt die niet een waardevol stuk code test, voegt de test geen waarde toe. Denk aan het testen van een stukje buisness logica versus het testen van een getter/setter. Het boek doet dit met pilaren voor het schrijven van een goede test. Lees hoofdstuk 1 van het boek [hier](https://livebook.manning.com/book/unit-testing/chapter-1) gratis. Deze blog is geïnspireerd door het boek en is een vervolg van mijn presentatie op de “INFI-CON 2022”.
 
 # Betere tests schrijven als een team
 
@@ -24,7 +24,7 @@ Na mijn INFI-CON presentatie zei iemand: “Dat je een presentatie over testen d
 
 Hoe zorg je ervoor dat jouw team tests krijgt die voor je werken? Ten eerste moet het team voldoende technische kennis hebben over het schrijven van “goede tests”. Maar vergeet niet de andere helft. Namelijk: afspraken maken binnen het team over (test)code. Zodat je samen een goede test suite kan neerzetten waardoor je uiteindelijk robuuste tests hebt en makkelijker op elkaars werk kunt voortbouwen.
 
-Dat afspraken maken binnen een team, vooral in grijs gebied, belangrijk is heb ik geleerd uit de topsportwereld. Op deze manier kun je als team goed samenwerken, ook in stressvolle situaties. Want als er **geen** afspraken worden gemaakt wordt het pad naar een effectieve test suite een stuk zwaarder. Zelfs met al het talent in de wereld. Als je deze afspraken **wel** maakt, wordt deze wedstrijd makkelijker. Zelfs als de afspraken niet werken, kun je als team iteratief naar verbetering werken. Want deze afspraken geven ook houvast om te verbeteren. Uiteindelijk kan het team sneller die nieuwe features implementeren of bugs fixen, omdat de tests voor je werken.
+Dat afspraken maken binnen een team, vooral in grijs gebied, belangrijk is heb ik geleerd uit de topsportwereld. Op deze manier kun je als team goed samenwerken, ook in stressvolle situaties. Want als er **geen** afspraken worden gemaakt wordt het pad naar een effectieve test suite een stuk zwaarder. Zelfs met al het talent in de wereld. Als je deze afspraken **wel** maakt, wordt deze wedstrijd makkelijker. Zelfs als de afspraken niet werken, kun je als team iteratief naar verbetering werken. Want deze afspraken geven ook houvast om te verbeteren. Uiteindelijk kan het team sneller die nieuwe features implementeren of bugs fixen, omdat de tests voor je werken.
 
 Zonder al te veel in detail te treden, geef ik voorbeelden van punten waarover je afspraken kan maken binnen jouw team. Vergeet niet: ze zijn niet in steen geschreven! Zelfs het tegendeel; je wilt juist iteratief steeds betere afspraken maken. Toch is een goed startpunt geen slecht idee.
 
@@ -77,15 +77,15 @@ Hier worden vaak al afspraken over gemaakt, maar het is zeker niet onbelangrijk.
 - Gebruik van static fields in plaats van dependency injection
 - Testen van interacties met subs en/of mocks
 - Mocken van hele klassen
-- Tests die gekoppeld zijn aan de implementatie en/of domeinlogica (dus geen [black-box](https://en.wikipedia.org/wiki/Black-box_testing#:~:text=Black-box%20testing%20is%20a,%2C%20integration%2C%20system%20and%20acceptance) tests)
+- Tests die gekoppeld zijn aan de implementatie en/of domeinlogica (dus geen [black-box](https://en.wikipedia.org/wiki/Black-box_testing#:~:text=Black-box%20testing%20is%20a,%2C%20integration%2C%20system%20and%20acceptance) tests)
 
 # Betere tests schrijven als developer
 
 Als developers willen we problemen oplossen, daarvoor schrijven we code. Om te controleren of de code daadwerkelijk werkt, schrijven we tests. Hierna kan je refactoren terwijl je zeker weet dat je niks kapot hebt gemaakt. Als tijdens de refactoring een test omvalt, is het lastig te achterhalen of het door actie of de test komt. Daarom wil je robuuste tests schrijven om dit probleem te voorkomen. Dit is één van de factoren die een test effectief maakt.
 
-**Laat tests voor je werken**Om tests voor je te laten werken probeer je de juiste balans te vinden. Het boek doet dit met 4 pilaren. Deze pilaren worden eerst goed uitgelegd. Daarna worden ze gebruikt om een effectieve test te maken. Deze pilaren wil je balanceren, anders zijn de tests niet nuttig of vallen ze om. Want **als je geen balans vindt**, werken de tests tegen je en worden nieuwe features implementeren trager. Dit kan komen doordat tests continu kapot gaan. Voordat je door kan gaan moet je dit eerst repareren. Als dit vaak gebeurt, bijvoorbeeld bij het refactoren, raak je dit stukje code minder snel aan. Daardoor blijft de “tech dept” opstapelen en kom je al snel in een neerwaartse “tech dept” spiraal met alle nadelige gevolgen van dien.
+**Laat tests voor je werken**Om tests voor je te laten werken probeer je de juiste balans te vinden. Het boek doet dit met 4 pilaren. Deze pilaren worden eerst goed uitgelegd. Daarna worden ze gebruikt om een effectieve test te maken. Deze pilaren wil je balanceren, anders zijn de tests niet nuttig of vallen ze om. Want **als je geen balans vindt**, werken de tests tegen je en worden nieuwe features implementeren trager. Dit kan komen doordat tests continu kapot gaan. Voordat je door kan gaan moet je dit eerst repareren. Als dit vaak gebeurt, bijvoorbeeld bij het refactoren, raak je dit stukje code minder snel aan. Daardoor blijft de “tech dept” opstapelen en kom je al snel in een neerwaartse “tech dept” spiraal met alle nadelige gevolgen van dien.
 
-**Als je de balans wel vindt** en de tests voor je laat werken, hoef je tijdens het maken van nieuwe features alleen nieuwe tests te schrijven. Refactoring en verder ontwikkelen wordt hierdoor makkelijker en sneller, want de tests vallen niet (meer) om. Dit betekent dat de groei van het project minder snel stagneert. Uiteindelijk happy stakeholders en een happy team.
+**Als je de balans wel vindt** en de tests voor je laat werken, hoef je tijdens het maken van nieuwe features alleen nieuwe tests te schrijven. Refactoring en verder ontwikkelen wordt hierdoor makkelijker en sneller, want de tests vallen niet (meer) om. Dit betekent dat de groei van het project minder snel stagneert. Uiteindelijk happy stakeholders en een happy team.
 
 **Pilaren voor een effectieve test**
 
@@ -113,4 +113,4 @@ Er zijn nog meer voorbeelden die ik later wil bespreken in een aparte blog, ande
 
 **DUS AFSPRAKEN!**Heeft jouw team afspraken over deze anti-patterns? Kun jij de vier pilaren als meetpaal toepassen? Dan zitten jij en je team op de goede weg. Vergeet niet om iteratief te blijven verbeteren op deze afspraken! Vergeet nooit meer dat testcode ook onderhoudbaar, robuust en effectief moet zijn. Dus behandel het met de zelfde liefde als de rest van de code base.
 
-Dank voor het lezen van deze blog! – [**Max Nieuwstad**](https://maxnieuwstad.com/aboutme/)Vond je het een leuke blog? Lees een vorige blog van mij: [**“Lessons learned”**](https://maxnieuwstad.com/blogs/lessons-learned-blazor/)
+Dank voor het lezen van deze blog! – [**Max Nieuwstad**](https://maxnieuwstad.com/aboutme/)Vond je het een leuke blog? Lees een vorige blog van mij: [**“Lessons learned”**](https://maxnieuwstad.com/blogs/lessons-learned-blazor/)
