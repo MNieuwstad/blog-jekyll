@@ -6,12 +6,14 @@ tags: [testen]
 comments: false
 mathjax: false
 author: Max Nieuwstad
-cover-img: /assets/img/20230525/5640.webp
+cover-img: /assets/img/20230525/5641.jpg
 thumbnail-img: /assets/img/20230525/5640.webp
 share-img: /assets/img/20230525/5640.webp
 ---
 
 ### Deze blog biedt een aantal handige tips en handvatten over hoe je tests (beter) kunt laten werken in jouw project of team. Dus voor ontwikkelaars die betere tests willen schrijven, maar ook voor teams die nog effectiever willen samenwerken bij het schrijven van tests. Je hoeft deze blog niet op de letter te volgen, maar ik bied graag wat inspiratie!
+
+*Youtube versie: [Laat testen voor je werken - INFI CON](https://youtu.be/oNHZQt5twTU?si=ms8Z-oMb_zLFgU-S&t=164)*
 
 *In deze blog bedoel ik met “test” een automatische test die wordt uitgevoerd om een stuk code te testen. Dit kan een unit-, integratie- of end-to-end test zijn.*
 
