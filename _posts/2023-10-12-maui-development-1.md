@@ -5,12 +5,15 @@ subtitle:
 tags: [MAUI]
 comments: false
 mathjax: false
+cover-img: /assets/img/mauidev1/image.jpg
+thumbnail-img: /assets/img/mauidev1/image.jpg
+share-img: /assets/img/mauidev1/image.jpg
 author: Max Nieuwstad
 ---
 
 Wil je een app maken die werkt op verschillende platforms? Heb je ervaring met .NET? Dan kan je nu die app maken met de bakken aan .NET ervaring die je hebt opgedaan! In deze blog geef ik je alle informatie die je nodig hebt om met MAUI te beginnen, zonder dat je urenlang forums of Google hoeft af te struinen.
 
-![Test pilaren en type testen]({{ '/assets/img/mauidev1/image.png' | relative_url }})
+![.NET MAUI title screen with 3 devices, windows, android and ios]({{ '/assets/img/mauidev1/image.png' | relative_url }})
 
 **Je vindt in deze blog informatie over MAUI, welke versie van .NET je moet gebruiken, welke IDE het beste voor jou is en hoe je MAUI met je gekozen IDE kunt installeren.**
 
@@ -46,7 +49,7 @@ Het gebruik van MAUI in Visual Studio is goed gedocumenteerd en werkt goed. De i
 
 In mijn geval gebruik ik Rider als dagelijkse IDE in combinatie met een hybride MAUI-app plus een webapplicatie met gedeelde pagina’s en componenten. Hierdoor hoef ik geen gebruik te maken van hot reload of XAML-preview. Vooral als je meerdere applicaties moet starten, vind ik Rider fijner werken. In Rider heb ik al mijn sneltoetsen ingesteld. In Visual Studio helaas nog niet. Ik hoef dus alleen op zijn tijd de MAUI app te bouwen en een Android- of iOS-emulator draaien in Rider. Als dit kan zonder foutmeldingen te krijgen zou dit wel fijn zijn.
 
-**TL;DR:** Ik raad je aan om Visual Studio te gebruiken voor MAUI development. Omdat je anders veel features mist, zoals hot reload en XAML-preview. Als je, net als ik, een reden hebt om Rider te gebruiken, lees dan [hieronder](https://infi.nl/nieuws/maui-development-1-environment-setup/#riderinstall) hoe je dit kunt doen.
+**TL;DR:** Ik raad je aan om Visual Studio te gebruiken voor MAUI development. Omdat je anders veel features mist, zoals hot reload en XAML-preview. Als je, net als ik, een reden hebt om Rider te gebruiken, lees dan [hieronder](#rider-installatie) hoe je dit kunt doen.
 
 ---
 
@@ -62,7 +65,7 @@ Voor de installatie op MacOS bestaat er al een blog, maar die is wat ouder. Voor
 
 # MacOS installatie
 
-In plaats van de release van 2022.2 EAP kun je gewoon de nieuwste versie van Rider, non EAP, downloaden. Hetzelfde geldt voor de .NET versie zoals [hierboven](https://infi.nl/nieuws/maui-development-1-environment-setup/#versievandotnet) genoemd. Verder is de blog goed te volgen:https://blog.jetbrains.com/dotnet/2022/05/25/macos-environment-setup-for-maui-development/
+In plaats van de release van 2022.2 EAP kun je gewoon de nieuwste versie van Rider, non EAP, downloaden. Hetzelfde geldt voor de .NET versie zoals [hierboven](#welke-versie-van-net-hoort-bij-maui) genoemd. Verder is de blog goed te volgen:https://blog.jetbrains.com/dotnet/2022/05/25/macos-environment-setup-for-maui-development/
 
 # Windows installatie
 
@@ -84,13 +87,13 @@ Installeer de Rider Xamarin Android-ondersteuning. Dit geeft je uitvoerconfigura
 
 Als Rider je emulator niet kan vinden, kun je de emulator handmatig starten en het nog een keer proberen. Vergeet ook niet om even te controleren of je SDK goed is gekoppeld met Rider. Dat kan hier:
 
-![Test pilaren en type testen]({{ '/assets/img/mauidev1/image4.png' | relative_url }})
+![android sdk settings]({{ '/assets/img/mauidev1/image4.png' | relative_url }})
 
 # Installeren van Xamarin
 
 Om MAUI te gebruiken, moeten we ook nog Xamarin Android en iOS & Mac installeren. Zorg dat je deze installeert. Je kunt op de groene knop drukken beide te installeren. Is de knop niet groen? Dan is het al geïnstalleerd. De Android SDK hebben we in de vorige stap al gekoppeld, dus dat hoeft niet meer.
 
-![Test pilaren en type testen]({{ '/assets/img/mauidev1/image5.png' | relative_url }})
+![installeren van xamarin enviroment]({{ '/assets/img/mauidev1/image5.png' | relative_url }})
 
 # Installeren van MAUI
 
@@ -108,15 +111,15 @@ dotnet workload install wasm-tools
 - Selecteer het type “.NET MAUI Blazor app”. Deze template is voor een hybride app waardoor je direct je bestaande Blazor componenten kan gebruiken. De andere “.NET MAUI app” is voor een native MAUI app.
 - Klik hierna op “create”!
 
-![Test pilaren en type testen]({{ '/assets/img/mauidev1/image6.png' | relative_url }})
+![creeren van maui settings]({{ '/assets/img/mauidev1/image6.png' | relative_url }})
 
 Run het project. Je moet nu in staat zijn om een MAUI-app te runnen op meerdere devices. Test dit ook even voordat je verder gaat!
 
-![Test pilaren en type testen]({{ '/assets/img/mauidev1/image7.png' | relative_url }})
+![run configuratie]({{ '/assets/img/mauidev1/image7.png' | relative_url }})
 
 Je hebt nu een hybride app van Blazor + MAUI! Als je iets anders ziet dan de afbeelding hieronder, heb je waarschijnlijk een “native MAUI app”. Dit betekent dat in plaats van een webview waarin de blazor componenten zich bevinden, je een xaml-pagina hebt met MAUI-componenten.
 
-![Test pilaren en type testen]({{ '/assets/img/mauidev1/image8.png' | relative_url }})
+![werkende maui app op android]({{ '/assets/img/mauidev1/image8.png' | relative_url }})
 
 Nu kan je aan de slag, veel plezier!
 
