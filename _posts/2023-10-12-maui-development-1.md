@@ -14,11 +14,11 @@ Wil je een app maken die werkt op verschillende platforms? Heb je ervaring met .
 
 **Je vindt in deze blog informatie over MAUI, welke versie van .NET je moet gebruiken, welke IDE het beste voor jou is en hoe je MAUI met je gekozen IDE kunt installeren.**
 
-1. [MAUI in het kort](https://infi.nl/nieuws/maui-development-1-environment-setup/#inhetkort)
-2. [Welke versie van .NET hoort bij MAUI?](https://infi.nl/nieuws/maui-development-1-environment-setup/#versievandotnet)
-3. [Rider of Visual Studio?](https://infi.nl/nieuws/maui-development-1-environment-setup/#riderofvs)
-4. [Visual Studio installatie](https://infi.nl/nieuws/maui-development-1-environment-setup/#vsinstall)
-5. [Rider installatie](https://infi.nl/nieuws/maui-development-1-environment-setup/#riderinstall)
+1. [MAUI in het kort](#maui-in-het-kort)
+2. [Welke versie van .NET hoort bij MAUI?](#welke-versie-van-net-hoort-bij-maui)
+3. [Rider of Visual Studio?](#rider-of-visual-studio)
+4. [Visual Studio installatie](#visual-studio-installatie)
+5. [Rider installatie](#rider-installatie)
 
 # MAUI in het kort
 
@@ -119,3 +119,10 @@ Je hebt nu een hybride app van Blazor + MAUI! Als je iets anders ziet dan de afb
 ![Test pilaren en type testen]({{ '/assets/img/mauidev1/image8.png' | relative_url }})
 
 Nu kan je aan de slag, veel plezier!
+
+[*err*](https://maxnieuwstad.com/aboutme/)  
+[*and err*](https://maxnieuwstad.com/aboutme/)  
+[*and err again,*](https://maxnieuwstad.com/aboutme/)   
+[*but less*](https://maxnieuwstad.com/aboutme/)     
+[*and less*](https://maxnieuwstad.com/aboutme/)     
+[*and less.*](https://maxnieuwstad.com/aboutme/)

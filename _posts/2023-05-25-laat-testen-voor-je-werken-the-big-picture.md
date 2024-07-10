@@ -118,4 +118,11 @@ Er zijn nog meer voorbeelden die ik later wil bespreken in een aparte blog, ande
 
 **DUS AFSPRAKEN!**Heeft jouw team afspraken over deze anti-patterns? Kun jij de vier pilaren als meetpaal toepassen? Dan zitten jij en je team op de goede weg. Vergeet niet om iteratief te blijven verbeteren op deze afspraken! Vergeet nooit meer dat testcode ook onderhoudbaar, robuust en effectief moet zijn. Dus behandel het met de zelfde liefde als de rest van de code base.
 
-Dank voor het lezen van deze blog! – [**Max Nieuwstad**](https://maxnieuwstad.com/aboutme/)Vond je het een leuke blog? Lees een vorige blog van mij: [**“Lessons learned”**](https://maxnieuwstad.com/blogs/lessons-learned-blazor/)
+Dank voor het lezen van deze blog! – [**Max Nieuwstad**](https://maxnieuwstad.com/aboutme/) Vond je het een leuke blog? Lees een vorige blog van mij: [**“Lessons learned”**](https://maxnieuwstad.com/blogs/lessons-learned-blazor/)
+
+[*err*](https://maxnieuwstad.com/aboutme/)  
+[*and err*](https://maxnieuwstad.com/aboutme/)  
+[*and err again,*](https://maxnieuwstad.com/aboutme/)   
+[*but less*](https://maxnieuwstad.com/aboutme/)     
+[*and less*](https://maxnieuwstad.com/aboutme/)     
+[*and less.*](https://maxnieuwstad.com/aboutme/)

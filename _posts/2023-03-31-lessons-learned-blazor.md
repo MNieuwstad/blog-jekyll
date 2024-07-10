@@ -68,4 +68,9 @@ Na 6 maanden werken bij Infi heb ik heel veel geleerd. Sommige informatie staat 
 
 Hoe nu verder?
 
-[*errand errand erragainbut lessand lessand less*](https://maxnieuwstad.com/aboutme/)
+[*err*](https://maxnieuwstad.com/aboutme/)  
+[*and err*](https://maxnieuwstad.com/aboutme/)  
+[*and err again,*](https://maxnieuwstad.com/aboutme/)   
+[*but less*](https://maxnieuwstad.com/aboutme/)     
+[*and less*](https://maxnieuwstad.com/aboutme/)     
+[*and less.*](https://maxnieuwstad.com/aboutme/)
