@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: pagewithimagetext
 title: Over mij
 ---
 

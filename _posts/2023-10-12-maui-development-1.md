@@ -29,7 +29,7 @@ MAUI wil het voor ontwikkelaars makkelijker maken om **native apps** te bouwen
 
 MAUI is dus de opvolger van Xamarin en daarmee de tweede poging van Microsoft om grip te krijgen op de cross-platform markt. Persoonlijk vond ik het werken met Xamarin oke, maar in 2019 had Xamarin maar weinig documentatie en het was ook nog eens moeilijk te vinden. Het bouwen verliep niet altijd soepel. Bijvoorbeeld door consistente run-time foutmeldingen in plaats van waarschuwingen vanuit de IDE of compile-time foutmeldingen. XAML als opmaaktaal vond ik ook wat minder intuïtief.
 
-**Gelukkig biedt .NET MAUI nieuwe kansen**. Tot nu toe werkt MAUI niet slecht! De documentatie is ook beter te vinden, maar nog wel schaars. Vandaar deze blog! Omdat MAUI door werkt op het al bestaande Xamarin kan je soms hiervoor ook nog documentatie vinden. Al maakt dit het zoeken naar de juiste oplossing wel ingewikkelder. Ach ja, dat moeten we dan maar voor lief nemen… Ook zijn er nu ook meer opties voor opmaaktalen! Fijn! Wil je nu al meer weten? Deze **talk** gaat over de basics van MAUI en waarvoor je het kan gebruiken: https://youtu.be/AlwmkatOUf4
+**Gelukkig biedt .NET MAUI nieuwe kansen**. Tot nu toe werkt MAUI niet slecht! De documentatie is ook beter te vinden, maar nog wel schaars. Vandaar deze blog! Omdat MAUI door werkt op het al bestaande Xamarin kan je soms hiervoor ook nog documentatie vinden. Al maakt dit het zoeken naar de juiste oplossing wel ingewikkelder. Ach ja, dat moeten we dan maar voor lief nemen… Ook zijn er nu ook meer opties voor opmaaktalen! Fijn! Wil je nu al meer weten? Deze **talk** gaat over de basics van MAUI en waarvoor je het kan gebruiken: [https://youtu.be/AlwmkatOUf4](https://youtu.be/AlwmkatOUf4)
 
 **TL;DR:** MAUI is een cross-platform framework van Microsoft dat het makkelijker maakt voor ontwikkelaars om native apps te bouwen vanuit één codebase. MAUI biedt nieuwe kansen en werkt tot nu toe goed, maar de documentatie is nog schaars.
 
@@ -37,7 +37,7 @@ MAUI is dus de opvolger van Xamarin en daarmee de tweede poging van Microsoft om
 
 # Welke versie van .NET hoort bij MAUI?
 
-Welke versie van .NET gebruik je voor MAUI? Tot nu is de laatste grote release van .NET elke keer alleen onder support. Er is dus nog geen LTS versie van MAUI beschikbaar, en met de laatste release heb je meteen alle nieuwe features. **Als je een oude tutorial volgt, houd dit dan in je achterhoofd.** De laatste informatie kun je altijd hier vinden: https://dotnet.microsoft.com/en-us/platform/support/policy/maui#
+Welke versie van .NET gebruik je voor MAUI? Tot nu is de laatste grote release van .NET elke keer alleen onder support. Er is dus nog geen LTS versie van MAUI beschikbaar, en met de laatste release heb je meteen alle nieuwe features. **Als je een oude tutorial volgt, houd dit dan in je achterhoofd.** De laatste informatie kun je altijd hier vinden: [Microsft MAUI supported version](https://dotnet.microsoft.com/en-us/platform/support/policy/maui#)
 
 ---
 
@@ -53,7 +53,7 @@ In mijn geval gebruik ik Rider als dagelijkse IDE in combinatie met een hybride 
 
 # Visual Studio installatie
 
-Als je MAUI wilt gebruiken met Visual Studio kan je deze tutorial volgen. https://learn.microsoft.com/en-us/dotnet/maui/get-started/installation
+Als je MAUI wilt gebruiken met Visual Studio kan je deze tutorial volgen. (https://learn.microsoft.com/en-us/dotnet/maui/get-started/installation)[https://learn.microsoft.com/en-us/dotnet/maui/get-started/installation}
 
 ---
 
@@ -63,7 +63,7 @@ Voor de installatie op MacOS bestaat er al een blog, maar die is wat ouder. Voor
 
 # MacOS installatie
 
-In plaats van de release van 2022.2 EAP kun je gewoon de nieuwste versie van Rider, non EAP, downloaden. Hetzelfde geldt voor de .NET versie zoals [hierboven](#welke-versie-van-net-hoort-bij-maui) genoemd. Verder is de blog goed te volgen:https://blog.jetbrains.com/dotnet/2022/05/25/macos-environment-setup-for-maui-development/
+In plaats van de release van 2022.2 EAP kun je gewoon de nieuwste versie van Rider, non EAP, downloaden. Hetzelfde geldt voor de .NET versie zoals [hierboven](#welke-versie-van-net-hoort-bij-maui) genoemd. Verder is de blog goed te volgen: [Jetbrains blog uit 2022](https://blog.jetbrains.com/dotnet/2022/05/25/macos-environment-setup-for-maui-development/)
 
 # Windows installatie
 
@@ -72,7 +72,7 @@ Informatie voor de windows installatie was moeilijk te vinden. Hier is een samen
 # Vereisten:
 
 - Rider (getest met 2023.2)
-- De ondersteunde versie van .NET https://dotnet.microsoft.com/en-us/platform/support/policy/maui#
+- [De ondersteunde versie van .NET](https://dotnet.microsoft.com/en-us/platform/support/policy/maui#)
 - Geïnstalleerd Android-emulatorapparaat
 - Installatie van OpenJDK (minimaal 11)
 - Android SDK (minimaal 31)
