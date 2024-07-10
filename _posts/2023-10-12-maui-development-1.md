@@ -13,8 +13,6 @@ author: Max Nieuwstad
 
 Wil je een app maken die werkt op verschillende platforms? Heb je ervaring met .NET? Dan kan je nu die app maken met de bakken aan .NET ervaring die je hebt opgedaan! In deze blog geef ik je alle informatie die je nodig hebt om met MAUI te beginnen, zonder dat je urenlang forums of Google hoeft af te struinen.
 
-![.NET MAUI title screen with 3 devices, windows, android and ios]({{ '/assets/img/mauidev1/image.png' | relative_url }})
-
 **Je vindt in deze blog informatie over MAUI, welke versie van .NET je moet gebruiken, welke IDE het beste voor jou is en hoe je MAUI met je gekozen IDE kunt installeren.**
 
 1. [MAUI in het kort](#maui-in-het-kort)
